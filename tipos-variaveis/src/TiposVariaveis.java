@@ -1,5 +1,15 @@
 public class TiposVariaveis {
-    public static void main(String[] args) throws Exception {
-        System.out.println("Hello, World!");
+
+    public static void main(String[] args) {
+        String texto = "A API de Strings é uma das mais utilizadas na linguagem Java";
+        String linguagem = texto.substring(texto.indexOf("Java"), texto.length());
+        
+        if (linguagem.compareToIgnoreCase("java") == 0) {
+            System.out.println("compareToIgnoreCase: Encontrei a linguagem! Ela é " + linguagem);
+        }
+        
+        if(linguagem.compareTo("java") == 0) {
+            System.out.println("compareTo: Encontrei a linguagem! Ela é " + linguagem);
+        }
     }
 }
