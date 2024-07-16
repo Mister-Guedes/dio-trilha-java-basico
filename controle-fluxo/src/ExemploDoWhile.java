@@ -5,7 +5,7 @@ public static void main(String[] args) {
 		do {
 			//excutando repetidas vezes até alguém atender
 			System.out.println("Telefone tocando");
-
+		
 		}while(tocando());
 
 		System.out.println("Alô !!!");
