@@ -4,39 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fed0603f-0b7c-4cba-9b33-8d2d14dfd2e0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/collections/list/operacoesBasicas/CarrinhoDeCompras.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/collections/list/operacoesBasicas/Item.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/collections/list/ordenacao/OrdenacaoNumeros.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/collections/list/ordenacao/OrdenacaoPessoas.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/collections/list/ordenacao/Pessoa.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/collections/list/pesquisa/CatalogoLivros.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/collections/list/pesquisa/Livro.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/collections/list/pesquisa/SomaNumeros.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/collections/map/operacoesBasicas/AgendaContatos.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/collections/map/operacoesBasicas/Dicionario.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/collections/map/ordenacao/AgendaEventos.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/collections/map/ordenacao/Evento.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/collections/map/ordenacao/LivrariaOnline.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/collections/map/ordenacao/Livro.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/collections/map/pesquisa/ContagemPalavras.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/collections/map/pesquisa/EstoqueProdutos.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/collections/map/pesquisa/Produto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/collections/set/operacoesBasicas/ConjuntoConvidados.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/collections/set/operacoesBasicas/ConjuntoPalavrasUnicas.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/collections/set/operacoesBasicas/Convidados.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/collections/set/ordenacao/Aluno.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/collections/set/ordenacao/CadastroProdutos.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/collections/set/ordenacao/GerenciadorAlunos.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/collections/set/ordenacao/Produto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/collections/set/pesquisa/AgendaContatos.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/collections/set/pesquisa/Contato.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/collections/set/pesquisa/ListaTarefa.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/collections/set/pesquisa/Tarefa.java" afterDir="false" />
+    <list default="true" id="fed0603f-0b7c-4cba-9b33-8d2d14dfd2e0" name="Changes" comment="Commit ListaTarefa1.1">
+      <change afterPath="$PROJECT_DIR$/src/streamApi/functions/bynareOperator/BynariOperatorExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/streamApi/functions/consumer/ConsumerExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/streamApi/functions/function/FunctionExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/streamApi/functions/predicate/PredicateExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/streamApi/functions/supplier/SupplierExample.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ListaTarefas.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/collections/list/operacoesBasicas/ListaTarefas.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Tarefa.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/collections/list/operacoesBasicas/Tarefa.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -134,11 +108,20 @@
       <option name="project" value="LOCAL" />
       <updated>1721425813919</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Commit ListaTarefa1.1">
+      <option name="closed" value="true" />
+      <created>1721847784098</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1721847784098</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Commit ListaTarefa" />
-    <option name="LAST_COMMIT_MESSAGE" value="Commit ListaTarefa" />
+    <MESSAGE value="Commit ListaTarefa1.1" />
+    <option name="LAST_COMMIT_MESSAGE" value="Commit ListaTarefa1.1" />
   </component>
 </project>
