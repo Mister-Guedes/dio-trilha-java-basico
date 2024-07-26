@@ -1,7 +1,7 @@
 public abstract class Conta implements InterfaceConta {
 
-    private static final int AGENCIA_PADRAO = 1;
-    private static  int SEQUENCIAL = 1;
+    private static int AGENCIA = 1;
+    private static  int NUMERO_CONTA = 1;
 
     protected int agencia;
     protected int numero;
@@ -9,8 +9,8 @@ public abstract class Conta implements InterfaceConta {
     protected Cliente cliente;
 
     public Conta(Cliente cliente) {
-        this.agencia = Conta.AGENCIA_PADRAO;
-        this.numero = SEQUENCIAL++;
+        this.agencia = Conta.AGENCIA;
+        this.numero = NUMERO_CONTA++;
         this.cliente = cliente;
     }
 
@@ -27,8 +27,9 @@ public abstract class Conta implements InterfaceConta {
         contaDestino.depositar(valor);
     }
 
-    protected void imprimirInfosComuns() {
-        System.out.println(String.format("Titular: %s", this.cliente.getNome()));
+    protected void imprimirInformacoesCliente() {
+        System.out.println(String.format("Titular: %s", this.cliente.getNome() + (" ") +this.cliente.getSobreNome()));
+        System.out.println(String.format("CPF: %s", this.cliente.getCPF()));
         System.out.println(String.format("Agencia: %d", this.agencia));
         System.out.println(String.format("Conta: %d", this.numero));
         System.out.println(String.format("Saldo: %.2f", this.saldo));
