@@ -4,7 +4,8 @@ public class ContaCorrente extends Conta {
     }
 
     public void imprimirExtrato() {
-        System.out.println("======== Extrato ContaCorrente ========");
+        System.out.println("======== EXTRATO DA CONTA CORRENTE ========");
         super.imprimirInfosComuns();
+        System.out.println("===========================================");
     }
 }

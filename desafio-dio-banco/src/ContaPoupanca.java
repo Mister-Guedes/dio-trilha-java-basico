@@ -4,7 +4,8 @@ public class ContaPoupanca extends Conta {
     }
 
     public void imprimirExtrato() {
-        System.out.println("=== Extrato ContaPoupanca ===");
+        System.out.println("======== EXTRATO DA CONTA POUPANCA ========");
         super.imprimirInfosComuns();
+        System.out.println("===========================================");
     }
 }
