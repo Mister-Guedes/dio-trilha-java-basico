@@ -1,4 +1,4 @@
-public interface IConta {
+public interface InterfaceConta {
     void depositar(double valor);
 
     void sacar(double valor);

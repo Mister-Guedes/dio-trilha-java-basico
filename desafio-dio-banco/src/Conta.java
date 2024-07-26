@@ -1,4 +1,4 @@
-public abstract class Conta implements IConta{
+public abstract class Conta implements InterfaceConta {
 
     private static final int AGENCIA_PADRAO = 1;
     private static  int SEQUENCIAL = 1;
