@@ -1,6 +1,5 @@
 package dio.desafio.javaPuro;
 
-
 import dio.desafio.javaPuro.facade.Facade;
 import dio.desafio.javaPuro.singleton.SingletonEager;
 import dio.desafio.javaPuro.singleton.SingletonLazy;
